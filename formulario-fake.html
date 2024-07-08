@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="./js/formulario-fake.js"></script>
+    <link rel="stylesheet" href="./css/formulario.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <section>
+        <p id="fim-quiz">Fim do Quiz</p>
+        <p id="acerto">Você acertou 100%</p>
+        <div class="content">
+            <div class="text">
+                <p id="preencha">Preencha o Formulário para ganhar o prêmio</p>
+                <div class="form">
+                    <div class="nome">
+                        <label for="nome">Nome Completo</label>
+                        <input type="text" id="nome" required>
+                    </div>
+                    <div class="nome">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="nome">
+                        <label for="cpf">Cpf</label>
+                        <input type="text" id="cpf" required>
+                    </div>
+                    <div class="nome">
+                        <label for="endereco">Endereço</label>
+                        <input type="text" id="endereco" required>
+                    </div>
+                    <div class="nome">
+                        <label for="dataNascimento">Data de Nascimento</label>
+                        <input type="date" id="dataNascimento" required>
+                    </div>
+                </div>
+                <button onclick="finalizar()">Finalizar</button>
+                <p id="text-final">Todos os itens do formulário são<br> necessários para podermos te entregar o prêmio</p>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>

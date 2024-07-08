@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body{
+    background-color: #04B2B2;
+}
+
+.content{
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    height: 700px;
+    border-radius: 30px;
+    color: #04B2B2;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1150px;
+    height: 650px;
+    color: #fff;
+    background-color: #04B2B2;
+}
+
+#fim-quiz{
+    text-align: center;
+    color: #fff;
+    font-size: 45px;
+    font-family: "Inter";
+    font-weight: bold ;
+}
+#acerto{
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    font-family: "Inter";
+    font-weight: bold ;
+}
+#preencha{
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    font-family: "Inter";
+    font-weight: bold ;
+}
+#text-final{
+    margin-top: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    font-family: "Inter";
+    font-size: 30px;
+}
+
+.form{
+    margin-top: 50px;
+    margin-left:300px;
+    font-size: 30px;
+    font-family: "Inter";
+    font-weight: bold;
+    text-align: start;
+}
+
+.form input{
+    height: 20px;
+    width: 300px;
+    border: none;
+    text-align: center;
+}
+
+button{
+    margin-top: 90px;
+    width: 240px;
+    height: 66px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    background-color:#06B999;
+    border-color: #fff;
+    border-style: solid;
+    cursor: pointer;
+    margin-left: 450px;
+}
+
+button a {
+    text-decoration: none;
+    color: #fff;
+}
+button:hover { 
+    background-color:#08F4CA; 
+    transition: 0.15s;
+    opacity: 0.7;
+}
+button:active{
+    transform: translate(10px);
+    box-shadow:0 3px 0 #04B2B2;
+}

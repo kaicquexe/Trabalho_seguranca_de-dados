@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #aa9e9e28;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  background-color: #04B2B2;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+  ;
+}
+
+.header a:hover{
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.144);
+  color: rgba(0, 0, 0, 0.541);
+  transition: 0.7s;
+}
+
+.texth1{
+  color: white;
+  margin-top: 0;
+}
+
+nav{
+  color: white;
+  margin-top: 30px;
+}
+
+.section-1{
+  color: white;
+  display: flex;
+  align-items: center;
+  background-color: #04B2B2;
+  margin: 3%;
+  padding: 100px;
+  border-radius: 20px;
+  gap: 80px;
+}
+
+.section-1 p{
+  margin-top: 10px;
+  padding: 30px;
+  font-size: large;
+  font-weight: bold;
+}
+
+footer{
+  background-color: #04B2B2;
+  padding: 55px;
+  text-align: center;
+  color: white;
+}
+
+.botao-premio button{
+  margin-left: 90%;
+  border-radius: 8px 8px 8px;
+  background-color: #06B999;
+  color: white;  
+  height: 50px;
+  width: 100px;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./css/resultado.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultados</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+
+<body>
+    <div class="cansei">
+        <P>MAIS CUIDADO COM SEUS DADOS</P>
+    </div>
+    <section class="main">
+        <section class="burro">
+            <h1>Dados preenchidos:</h1>
+            <p><strong>Nome:</strong> <span id="resNome"></span></p>
+            <p><strong>Email:</strong> <span id="resEmail"></span></p>
+            <p><strong>CPF:</strong> <span id="resCpf"></span></p>
+            <p><strong>Endereço:</strong> <span id="resEndereco"></span></p>
+            <p><strong>Data de Nascimento:</strong> <span id="resDataNascimento"></span></p>
+        </section>
+    </section>
+
+    <div class="cansei">
+        <P>Brincadeira, seus dados não foram vazados, mais cuidado onde você compartilha eles</P>
+    </div>
+
+    <div class="rala">
+        <p>é só isso, não tem mais jeito, acabou, boa sorte :)</p>
+    </div>
+
+</body>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        // Recupera os valores do localStorage
+        const nome = localStorage.getItem('nome');
+        const email = localStorage.getItem('email');
+        const cpf = localStorage.getItem('cpf');
+        const endereco = localStorage.getItem('endereco');
+        const dataNascimento = localStorage.getItem('dataNascimento');
+
+        // Exibe os valores nos elementos correspondentes
+        document.getElementById('resNome').textContent = nome;
+        document.getElementById('resEmail').textContent = email;
+        document.getElementById('resCpf').textContent = cpf;
+        document.getElementById('resEndereco').textContent = endereco;
+        document.getElementById('resDataNascimento').textContent = dataNascimento;
+    });
+</script>
+
+<button class="voltar-inicio"><a href="index.html">Caso queira voltar ao inicio clique aqui</a></button>
+
+</html>
